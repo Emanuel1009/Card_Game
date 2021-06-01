@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+*{
+  margin: 0;
+}
+section{
+  height: 264px;
+  background: #eee;
+  margin-bottom: 1rem;
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding: 1rem;
+  font-size: 1.8rem;
+}
+#next,
+#prev{
+  position: fixed;
+  bottom: 1rem;
+  font-size: 1.2rem;
+  background: #111;
+  color: #fff;
+  padding: 1rem 1.6rem 1rem 1.6rem;
+  cursor: pointer;
+}
+#next{
+  right: 1rem;
+}
+#prev{
+  left: 1rem;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.top-left {
+  position: fixed;
+  top: 8px;
+  left: 16px;
+  font-size: 30px;
+  font-family : "Courier New", Courier, monospace;
+}
+
+.top-right {
+  position: fixed;
+  padding: 14px 16px;
+  top: 8px;
+  right: 35px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.gambar-kanan {
+  position: absolute;
+  padding: 14px 16px;
+  top: 80px;
+  right: 16px;
+}
+
+.top-right a:hover {
+  color: red;
+}
+
+.top-right a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top:30%;
+  left: 43%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+  font-family: 'Brush Script MT', cursive;
+}
+.centered1 {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+  font-family : "Courier New", Courier, monospace;
+}
+.centered2 {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+  -ms-transform: rotate(20deg);
+  transform: rotate(-20deg);
+}
+.centered3 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+}
+.questions_couple {
+  color: black;
+  position: relative;
+  text-align: center;
+  padding: none;
+}
+#next,
+#prev{
+  position: fixed;
+  bottom: 1rem;
+  font-size: 1.2rem;
+  background: #111;
+  color: #fff;
+  padding: 1rem 1.6rem 1rem 1.6rem;
+  cursor: pointer;
+}
+#next{
+  right: 1rem;
+}
+#prev{
+  left: 1rem;
+}
